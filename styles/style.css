@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: var(--poppins);
+  color: var(--text-color);
+}
+
+.container {
+  height: 100%;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 20px;
+}
+
+header {
+  display: grid;
+  place-items: center;
+  background-color: var(--bg-dark-blue);
+  color: var(--bg-white-color);
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
+
+header img {
+  width: 300px;
+}
+
+header .person-info {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 300;
+}
+
+header .person-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+header .person-more a {
+  color: #F0F0F0;
+  text-decoration: none;
+}
+
+header .person-links li {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+header .person-interests {
+  width: 80%;
+  text-align-last: right;
+}
+
+header .person-interests p {
+  margin-bottom: 8px;
+}
+
+header .person-interests ul {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+header .person-interests ul li {
+  border: 1px solid #F0F0F0;
+  border-radius: 20px;
+  padding: 4px 8px;
+  font-size: 0.7rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+footer h2 span {
+  font-family: var(--playfair);
+}
