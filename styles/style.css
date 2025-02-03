@@ -52,6 +52,10 @@ header .person-more a {
   text-decoration: none;
 }
 
+header .person-more a:hover {
+  text-decoration: underline;
+}
+
 header .person-links li {
   font-size: 0.9rem;
   margin-top: 4px;
@@ -80,8 +84,59 @@ header .person-interests ul li {
   font-size: 0.7rem;
 }
 
+main {
+  display: grid;
+  place-items: center;
+}
+
+main .line {
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+  margin: 10px 0;
+}
+
+main h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+main h4 {
+  font-weight: 500;
+}
+
+main p {
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+main .formacao_experiencia p {
+  margin-bottom: 10px;
+}
+
+main .projetos {
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+main .idiomas {
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+main .ferramentas ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 footer {
+  width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
   text-align: center;
+  border-top: 1px solid gray;
 }
 
 footer h2 {
